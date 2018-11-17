@@ -1,4 +1,4 @@
-package com.orson.spring.bestpractices.springbestpractices.model;
+package com.orson.spring.bestpractices.model;
 
 import java.util.HashSet;
 import java.util.Set;
