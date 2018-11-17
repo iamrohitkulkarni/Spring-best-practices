@@ -1,6 +1,4 @@
 # Spring-best-practices
+Step By Step implementation of all Spring Features 
 This Repository Contains Spring Framework Best Practices
-
-Step By Step implementation of Spring Features 
-
-Almost Try To implement All Spring Modules
+Almost Try To implement all Spring Modules.
