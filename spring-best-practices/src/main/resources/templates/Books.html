@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head lang="en">
+
+    <title>Spring Best Practices</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+	<h1>Book List</h1>
+	<table>                    
+		<tr>
+			<th>ID</th>
+			<th>Title</th>
+			<th>Publisher</th>
+		</tr>
+		<tr th:each="book:${Books}">
+			<td th:text=${book.id}></td>>
+			<td th:text=${book.title}></td>>
+			<td th:text=${book.publisher.name}></td>>
+		</tr>
+	</table>
+</body>
+</html>
